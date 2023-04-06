@@ -1,0 +1,25 @@
+.message{
+    width: 1120px;
+    display: grid;
+    border: double black 8px;
+    position: absolute;
+    border-radius: 25px;
+    color: #171F30;
+    background-color: #dbdfe5;
+    margin-top: 762px;
+    height: 140px;
+    font-weight: bolder;
+    font-size: xxx-large;
+    text-align: center;
+    margin-left: 2px;
+    align-content: center;
+}
+
+.closer{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -10px;
+    font-size: 18pt;
+    padding-top: -4px;
+    color: crimson;
+}

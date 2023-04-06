@@ -1,0 +1,29 @@
+.warningScreen{
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    place-content: center;
+    align-items: center;
+}
+
+.warningHeader{
+    color: orange;
+    font-size: 2.5em;
+}
+
+.warningMessage{
+    border-bottom: whitesmoke 4px double;
+    border-top: whitesmoke 4px double;
+}
+
+.warningModal{
+    background-color: #414A5E;
+    border: orange 5px dashed;
+    border-radius: 25px;
+    padding: 10px;
+    width: 400px;
+}

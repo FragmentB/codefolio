@@ -1,0 +1,38 @@
+.dealerSelect{
+    justify-content: center;
+    display: flex;
+}
+
+.dealerSelectImage{
+    width: 1140px;
+    height: 920px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.dealerSelectPanel{
+    margin-top: 320px;
+    place-self: center;
+}
+
+.dealerSelectTitle{
+    color: #000;
+    font-size: xxx-large;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    border: #000 1px solid;
+    background-color: #fff;
+}
+
+.dealerList{
+    position: relative;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 144px);
+    grid-gap: 5px;
+}
+
+.relative{
+    position: relative;
+}

@@ -1,0 +1,51 @@
+.menuBar span{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;    
+    margin-left: 5px;
+    background-color: #040A17;
+    border: 2px solid #414A5E;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.menuLink {
+    color: white;
+    text-decoration: none;
+  }
+
+.menuLink:hover {
+    color: plum;
+}
+  
+.menuBar{
+    width: 500px;
+    position: absolute;
+    margin-top: 500px;
+    text-align: center;
+}
+
+.linkIcon{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.menuFooter{
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    place-content: center;
+    justify-content: space-between;
+}
+
+.menuFooter span{
+    display: inline-table;
+}
+
+.menuFooter img{
+    width: 90px;
+    border-radius: 50%;
+}

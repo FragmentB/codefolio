@@ -1,0 +1,98 @@
+@import 'styles/colorPallet.scss';
+
+.headerLinks{
+    margin-top: 10px;
+  }
+
+  .portfolioHeader {
+    background-color: $medium;
+    min-height: 50vh;
+    display: flex;
+    max-width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $black;
+  }
+
+  .headerText{
+    padding: 15px;
+  }
+
+  .headerDescription{
+    padding: 20px;
+    text-align: left;
+  }
+
+  .headerTitle, .footerTitle{
+    color: $white;
+  }
+
+  .projects
+  {
+    max-width: 80vw;
+    color:$black;
+    font-size: calc(10px + 1vmin);
+    display: contents;
+  }
+
+  .projects .projectDisplay:nth-child(even){
+    background-color: $light;
+    color: $black;
+  }
+  .projects .projectDisplay:nth-child(odd){
+    background-color: $white;
+    color: $black;
+  }
+
+  .projectDisplay{
+    min-height: 30vh;
+    max-width: 80vw
+    
+  }
+
+  .projectText{
+    text-align: left;
+    padding:20px;
+  }
+
+  .projectTitle{
+    margin-bottom: 0px;
+    margin-top: 2px;
+  }
+
+  .projectInfo{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+  }
+
+  .projectScreenshot
+  {
+    max-height: 20vh;
+    margin: 10px;
+    border: 8px double $black;  
+    border-radius: 20px;
+    object-fit: contain;
+  }
+
+  .portfolioFooter{
+    background-color: $medium;
+    max-width: 80vw;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: $black;
+  }
+  
+
+  .footerRant{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    text-align: left;
+  }

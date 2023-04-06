@@ -1,0 +1,16 @@
+.playerStats{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight:bold;
+    background-color: #3e4451;
+    height: 65px;
+    justify-content: center;
+    display: grid;
+}
+
+.playerStats div{
+    float:right;
+    margin-right: 5px;
+    clear: right;
+}

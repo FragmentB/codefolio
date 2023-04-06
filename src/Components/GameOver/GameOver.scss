@@ -1,0 +1,16 @@
+.gameOverPage{
+    display: flex;
+    place-content: center;
+}
+
+.gameOverImage{
+    width: 1130px;
+    height: 910px;
+    object-fit: contain;
+    position: relative;
+}
+
+.resetArea{
+    position: absolute;
+    margin-top: 878px;
+}

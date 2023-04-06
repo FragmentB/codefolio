@@ -1,0 +1,186 @@
+@import 'styles/colorPallet.scss';
+
+Body{
+  background-color: $dark;
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    color: $white;
+    margin: 5px;
+    padding: 5px;
+    display: inline-grid;
+    justify-items: center;
+    font-weight: bold;
+    font-size: calc(8px + .5vmin);
+    border: 2px solid $light;  
+    border-radius: 15px;
+    background-color: $dark;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .icon:hover {
+
+    border-color: #cf7a6a;
+   .fa-xl{
+      color: #cf7a6a;
+  }
+}
+
+
+@font-face {
+  font-family: "Risque";
+  src: url("../fonts/Risque-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Vanilla";
+  src: url("../fonts/Vanilla.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bubblegum";
+  src: url("../fonts/BubblegumSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Spicy";
+  src: url("../fonts/SpicyRice-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Pixie";
+  src: url("../fonts/PixieFont.ttf") format("truetype");
+}
+
+.vanilla{
+  font-family: "Vanilla";
+}
+
+.risque{
+  font-family: "Risque";
+}
+
+.spicy{
+  font-family: "Spicy";
+}
+
+.pixie{
+  font-family: "Pixie";
+}
+
+.bubblegum{
+  font-family: "Bubblegum";
+}
+
+.table
+{
+  display: flex;
+  place-content: center;;
+}
+
+.center{
+  text-align: center;
+}
+
+.gameTable
+{
+  width: 1140px;
+  height: 920px;
+  background-color: #7B8292;
+  color: white;
+  font-size: large;
+  display: inline-flex
+}
+
+.playingTable{
+  width: 710px;
+  margin-top: 5px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.playingArea{
+  height: 800px;
+  background-color: #3e4451;
+}
+
+.controls{
+  height: 97px;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: #3e4451;
+}
+.wideButton{
+  min-width:200px
+}
+
+.button{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;  
+  margin-left: 5px;
+  background-color: #040A17;
+  border: 2px solid #414A5E;
+  border-radius: 12px;
+  padding: 2px 5px 2px 5px;
+  color: white;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.button:hover
+{
+  color: plum;
+}
+
+button {
+  font-family: "Pixie";
+  font-size: large;
+  font-weight: bold;
+}
+
+.card{
+  object-fit: cover;
+  height: 168px;
+  width: 120px;
+}
+
+.disabledButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  margin-left: 5px;
+  background-color: #7B8292;
+  border: 2px solid #040A17;
+  border-radius: 12px;
+  padding: 2px 5px 2px 5px;
+  color: #0D1424;
+  text-decoration: none;
+  font-size: x-large;
+  cursor: default; 
+}
+
+.gameButton{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  margin-left: 5px;
+  background-color: #040A17;
+  border: 2px solid #414A5E;
+  border-radius: 12px;
+  padding: 2px 5px 2px 5px;
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  cursor: pointer;
+}

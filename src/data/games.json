@@ -1,0 +1,26 @@
+[
+    {
+        "game": "blackjack",
+        "label": "Blackjack",
+        "path": "/blackjack",
+        "minBet": 15,
+        "maxBet": 150,
+        "minDeck": 15
+    },
+    {
+        "game": "klondike",
+        "label": "Klondike",
+        "path": "/klondike",
+        "minBet": 5,
+        "maxBet": 100,
+        "minDeck": 0
+    },
+    {
+        "game": "options",
+        "label": "Options",
+        "path": "/options",
+        "minBet": 0,
+        "maxBet": 0,
+        "minDeck": 0
+    }
+]

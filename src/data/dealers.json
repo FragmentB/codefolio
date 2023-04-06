@@ -1,0 +1,129 @@
+[
+  {
+    "dealerName": "Koda",
+    "maxOutfits": "3",
+    "defaultCost": "100",
+    "species": "English Lab",
+    "age": 1,
+    "info": "Koda is a good boy who likes cuddles and long walks in the snow.",
+    "availableGames": "blackjack, klondike",
+    "quotes": {
+      "greeting": ["I'm Koda, nice to meet you.", "My name is Koda, let's play!", "I'm Koda, good luck!"],
+      "dealing": ["Here you go!,", "Let's Play!", "Good Luck"],
+      "winning": ["Hey you did it!", "Good Job!", "I knew you could do it!"],
+      "losing": ["Oh no! You lost.", "Oh! I won... I'm sorry.", "You'll do better next time!"],
+      "tie": ["Oh we tied. I'm sorry.", "Here's your money back. Please Try again!"],
+      "shuffle": ["Let's mix it up~", "Shuffle shuffle"],
+      "deny": ["Sorry not enough money.", "You didn't pay."],
+      "risk": ["O-oh... good luck!", "You're so brave!", "You can do it."],
+      "tense": ["This is exciting!", "Oh my... good luck."],
+      "gameOver": ["I'm so sorry but that's all your money."]
+    }
+  },
+  {
+    "dealerName": "Luna",
+    "maxOutfits": "1",
+    "defaultCost": "100",
+    "species": "Cat",
+    "age": 6,
+    "info": "Luna is a fluffy spoiled brat with a very soft belly",
+    "availableGames": "blackjack",
+    "quotes": {
+      "greeting": ["You can call me Luna.", "I'm Luna who are mew?", "That's right it's Luna!"],
+      "dealing": ["Mew take this card.,", "Do your best!", "Ready! Set! Go!"],
+      "winning": ["Not bad!", "Hehe~ You did it!", "Wanna share that with me?"],
+      "losing": ["Looks like I won! Hehe~", "We can play again right?", "Don't be sad."],
+      "tie": ["Looks like no one wins!", "Have your money back and play again!"],
+      "shuffle": ["It's really hard to shuffle with these paws", "Shuffle time! Shuffle time!", "It's shuffle time."],
+      "deny": ["You can't afford it.", "Sorry hun, but this isn't free."],
+      "risk": ["Oh my so bold.", "Good luck! You'll need it", "Let's go!"],
+      "tense": ["It's not over yet!", "Is this it?"],
+      "gameOver": ["Hey you weren't supposed to lose all your money."]
+    }
+  },
+  {
+    "dealerName": "Koopa",
+    "maxOutfits": "3",
+    "defaultCost": "100",
+    "species": "Guinea Pig",
+    "age": 1,
+    "info": "Koopa lives life by the motto. 'Be loud be proud and eat all the treats!' He's a lot like having a loudspeaker attached to a squeaky shopping cart.",
+    "availableGames": "klondike",
+    "quotes": {
+      "greeting": ["Welcome to the Casino, I'm Koopa.", "Hello I'm Koopa, welcome to my table!", "Hope you strike it rich!"],
+      "dealing": ["The game begins, this is exciting,", "Wonder who's going to win this time!", "Let's find out if you're lucky or not~"],
+      "winning": ["Think of all the treats you could buy with that cash!", "I didn't see that coming!", "We should share~"],
+      "losing": ["If only I got to keep it for myself.", "Yes, come to Koopa.", "Sorry, but I'm on fire!"],
+      "tie": ["Now this is interesting.", "Darn I hate giving refunds!"],
+      "shuffle": ["Time to mix it up~", "Who is going to get lucky this time."],
+      "deny": ["Not without paying for it.", "Hey not so fast."],
+      "risk": ["Good luck, you'll need it.", "Oh wow, how impressive!", "Well what do we have here?"],
+      "tense": ["This is exciting!", "Put on a good show~", "I'm on the edge of my seat!"],
+      "gameOver": ["Wait don't leave yet. I still need more snacks!"]
+    }
+  },
+  {
+    "dealerName": "Valentine",
+    "maxOutfits": "1",
+    "defaultCost": "100",
+    "species": "Guinea Pig",
+    "age": 1,
+    "info": "Valentine is the big baby he's a shy little goofball and he love to play with his toys.",
+    "availableGames": "blackjack",
+    "quotes": {
+      "greeting": ["H-hi I'm Valentine", "I hope you have fun!"],
+      "dealing": ["Here have some Cards!", "Do you think I'll win?", "I hope you win!"],
+      "winning": ["Yay! You won.", "Great job!"],
+      "losing": ["I-I actually won?", "Oh no. I'm sorry."],
+      "tie": ["I guess no one wins?", "I didn't know that could happen!"],
+      "shuffle": ["The shuffling sound scares me everytime.", "It's like a whole new game."],
+      "deny": ["I'm sorry but you need to pay first.", "I-I can't let you do that."],
+      "risk": ["I'm gonna close my eyes, good luck", "Eeek! This is so cool", "You are amazing. Good luck"],
+      "tense": ["You got this!", "I'm nervous!"],
+      "gameOver": ["I-I didn't mean to take everything. I'm sorry!"]
+    }
+  },
+  {
+    "dealerName": "Mochi",
+    "maxOutfits": "6",
+    "defaultCost": "100",
+    "species": "Guinea Pig",
+    "age": 2,
+    "info": "Mochi is my little pancake. He's a brave boy who likes to watch tv and cuddle after an adventure.",
+    "availableGames": "blackjack, klondike",
+    "quotes": {
+      "greeting": ["Have no fear Mochi is here", "Let's have an awesome game!"],
+      "dealing": ["Game starts now!", "Oh yeah! It's play time!", "I'm gonna give it my all!"],
+      "winning": ["Amazing job! Here's your cash.", "Way to go."],
+      "losing": ["Aw man I thought you had this one for sure.", "That was a blast! Can we play again?"],
+      "tie": ["I guess that means a do over?", "It is what it is, lets try again!"],
+      "shuffle": ["Faster faster, I gotta shuffle faster", "Darn quick shuffle break I guess"],
+      "deny": ["No can do my friend.", "Gotta pay the toll first."],
+      "risk": ["I'm super excited!", "What will happen next?", "Wow, I can't believe it!"],
+      "tense": ["Not gonna lie this is the coolest!", "Go big or go home!"],
+      "gameOver": ["I'll try to go easy on you next time! Please come again!"]
+    }
+  },
+  {
+    "dealerName": "Cotton",
+    "maxOutfits": "4",
+    "defaultCost": "100",
+    "species": "Guinea Pig",
+    "age": 2,
+    "info": "Cotton is the most spoiled guinea pig we have like a little prince who demands cuddles and pea flakes.",
+    "availableGames": "klondike",
+    "quotes": {
+      "greeting": ["That's right it's Cotton.", "Did you bring me anything?", "You have to pet me before we play!"],
+      "dealing": ["Why am I serving you cards,", "Do you think these cards would taste good?", "You think you can win?"],
+      "winning": ["Oh wow you did it!", "Hey! I wanted to win.", "You could buy me something with that."],
+      "losing": ["Yay I won!.", "Can I get a victory treat?", "I'm supposed to win right?"],
+      "tie": ["Wait what?.", "That's not supposed to happen!"],
+      "shuffle": ["I'll throw the cards on the floor, you pick them up.", "I want new cards."],
+      "deny": ["I gotta see that green stuff first", "No way."],
+      "risk": ["Gotta take risks.", "Let's hope this wasn't a mistake!", "Go go go!"],
+      "tense": ["Yeeeee haw let's go", "I can't watch!", "Hold me I'm scared!"],
+      "gameOver": ["Hey! I'm not done snuggling you yet. Come back here."]
+    }
+  }
+  
+]

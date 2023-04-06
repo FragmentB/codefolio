@@ -10,7 +10,7 @@ function DiceHand(props:DiceHandProps){
         <div className='hand'>
             {
                 props.hand.map((die,i) => {
-                    const dieFace = require(`assets/Images/Dice/${die}.jpg`)
+                    const dieFace = require(`assets/Images/Dice/${die}.png`)
 
                     return <Die key={i} dieValue={die} image={dieFace} />
 

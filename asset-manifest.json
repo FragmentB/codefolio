@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codefolio/static/css/main.3be12810.css",
-    "main.js": "/codefolio/static/js/main.00ad6657.js",
+    "main.js": "/codefolio/static/js/main.3cff4cad.js",
     "static/media/OneStepAtATime.wav": "/codefolio/static/media/OneStepAtATime.26f15e7427ea000e6b90.wav",
     "static/media/swagger.mp3": "/codefolio/static/media/swagger.f99000f5060ff85db389.mp3",
     "static/media/DistantFellow.mp3": "/codefolio/static/media/DistantFellow.b154fc02a7dfd41e39fb.mp3",
@@ -102,10 +102,10 @@
     "static/media/1.ogg": "/codefolio/static/media/1.3b3fe412835067ae8e6a.ogg",
     "index.html": "/codefolio/index.html",
     "main.3be12810.css.map": "/codefolio/static/css/main.3be12810.css.map",
-    "main.00ad6657.js.map": "/codefolio/static/js/main.00ad6657.js.map"
+    "main.3cff4cad.js.map": "/codefolio/static/js/main.3cff4cad.js.map"
   },
   "entrypoints": [
     "static/css/main.3be12810.css",
-    "static/js/main.00ad6657.js"
+    "static/js/main.3cff4cad.js"
   ]
 }

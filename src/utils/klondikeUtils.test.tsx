@@ -1,4 +1,3 @@
-import React from 'react';
 import { beatAces, compareHands, KlondikeBets } from './klondikeUtils';
 
 describe('klondikeutils' , () =>{

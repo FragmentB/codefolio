@@ -22,6 +22,7 @@ function KlondikeControls(){
 
     useEffect(()=>{
         updateBet(minBet);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const newHand =(type:KlondikeBets = KlondikeBets.Win)=>

@@ -2,7 +2,7 @@
 import Message from "Components/Message";
 import { useCasino } from "hooks/casinoContext";
 import { useDealer } from "hooks/DealerContext";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import 'styles/global.scss';
 import './GameOver.scss'
@@ -14,7 +14,7 @@ function GameOver(){
     useEffect(()=>{
         const message = getQuote("gameOver");
         sendMessages([message]);
-    },[])
+    },[getQuote, sendMessages])
 
     const restart =()=>
     {

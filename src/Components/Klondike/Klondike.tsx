@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import { useCasino } from "hooks/casinoContext";
 import { useDealer } from "hooks/DealerContext";
 import DealerSelect from "Components/DealerSelect";
@@ -22,6 +22,7 @@ function Klondike() {
         {
             playMusic(musicType.Table);        
         }        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     } ,[])
 
     if(!gameStarted){

@@ -13,7 +13,7 @@ function Porfolio() {
     const {pauseMusic} = useAudio()
     useEffect(()=>{
         pauseMusic()
-        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     } ,[])
     const resume = require("assets/JButler.pdf");
     const casino = require("assets/Images/SourcapsIcon.png");
@@ -99,7 +99,7 @@ function Porfolio() {
             </h2>
             <div className='projectInfo'>
                 <div className='projectImage'>
-                <a href='https://fragmentb.github.io/Mists/index.html' target="_blank">
+                <a href='https://fragmentb.github.io/Mists/index.html' target="_blank" rel="noreferrer">
                     <img className='projectScreenshot' alt='Explorers of the Mists' src={mists} />
                 </a>
                 </div>
@@ -109,7 +109,7 @@ function Porfolio() {
                     It's one of my first attempts so the code is a bit of a mess but I like the results so I want to keep it around as a reminder.
                     Procedural level generation, fog of war, enemies that move and are persisant even in maps you aren't in, and a big enemy with persuit logic.
                     It's a good base for a project and something I look back to for inspiration. I have a typscript rewrite in progress that is cleaning up and restructuring the whole codebase.
-                    Click on the icon or <a href='https://fragmentb.github.io/Mists/index.html' target="_blank">click here</a> to explore the mists.
+                    Click on the icon or <a href='https://fragmentb.github.io/Mists/index.html' target="_blank" rel="noreferrer">click here</a> to explore the mists.
                 </div>
                 </div>
             </div>

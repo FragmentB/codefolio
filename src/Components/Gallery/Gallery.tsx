@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useDealer } from "hooks/DealerContext";
 import DealerSelect from "Components/DealerSelect";
 import './Gallery.scss'

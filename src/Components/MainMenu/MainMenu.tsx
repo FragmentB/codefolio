@@ -42,7 +42,9 @@ function MainMenu(){
             }
             {
                 onMenu &&
-                <Link className="wideButton button" to={'/'}> {'Back to Portfolio'}</Link>
+                <div className="menuRow">
+                    <Link className="wideButton button" to={'/'}> {'Back to Portfolio'}</Link>
+                </div>
             }            
        </div>
     );

@@ -22,6 +22,7 @@ function TitleScreen(){
         {
             playMusic(musicType.Menu);        
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     } ,[])
 
     const playGame = ()=>{

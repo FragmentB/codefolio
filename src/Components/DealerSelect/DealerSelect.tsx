@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDealer } from "hooks/DealerContext";
 import DealerSelectButton from "Components/DealerSelectButton";
 import { Link } from "react-router-dom";
@@ -19,7 +19,7 @@ function DealerSelect(props:DealerSelectProps){
         {
             loadDealer(dealerlist[0]);
         }
-    },[dealerlist])
+    },[dealerlist, loadDealer])
 
     const randomImg = require('assets/Images/SourcapsIcon.png')
     const dealerSelectImage = require('assets/Images/DealerSelect.jpg')

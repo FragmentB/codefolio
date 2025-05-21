@@ -1,4 +1,3 @@
-import React from 'react';
 import { containsRepeats, countOccurance, getDiceArray, getFirstPair, roll } from './diceUtils';
 
 describe('DiceUtils', ()=>{

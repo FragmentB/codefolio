@@ -21,6 +21,7 @@ function Blackjack() {
         {
             playMusic(musicType.Table);        
         }           
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     } ,[])
 
     if(!gameStarted){

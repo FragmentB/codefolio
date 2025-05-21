@@ -74,6 +74,7 @@ export const AudioProvider: FC<PropsWithChildren> =({children}) => {
 
     const [sfxVolume, setSFXVolume] = useState(localSoundVolume)
     const [bgmVolume, setBGMVolume] = useState(localMusicVolume)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [playing, setPlaying] = useState(false);
 
     const audioPlayer = new Audio('');
@@ -97,6 +98,7 @@ export const AudioProvider: FC<PropsWithChildren> =({children}) => {
         window.localStorage.setItem('SoundVolume', JSON.stringify(sfxVolume));
     }
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const playSound =(type:sfxType)=>{
         let sounds = []
         switch(type)

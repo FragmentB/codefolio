@@ -16,6 +16,7 @@ function BlackjackControls(){
 
     useEffect(()=>{
         playSound(sfxType.Shuffle);        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     } ,[])
 
     const blakjackInfo = gameInfo.find(x=>x.game === 'blackjack');
@@ -25,6 +26,7 @@ function BlackjackControls(){
 
     useEffect(()=>{
         updateBet(minBet);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
     const newHand =()=>

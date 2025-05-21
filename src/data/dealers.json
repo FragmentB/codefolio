@@ -30,7 +30,7 @@
     "availableGames": "blackjack",
     "quotes": {
       "greeting": ["You can call me Luna.", "I'm Luna who are mew?", "That's right it's Luna!"],
-      "dealing": ["Mew take this card.,", "Do your best!", "Ready! Set! Go!"],
+      "dealing": ["Mew take this card.", "Do your best!", "Ready! Set! Go!"],
       "winning": ["Not bad!", "Hehe~ You did it!", "Wanna share that with me?"],
       "losing": ["Looks like I won! Hehe~", "We can play again right?", "Don't be sad."],
       "tie": ["Looks like no one wins!", "Have your money back and play again!"],

@@ -11,7 +11,7 @@ function BlackjackPlayingArea() {
 
     useEffect(()=>{
         shuffle();
-    },[])
+    },[shuffle])
 
     const getCurrentScore =(sum:number, length: number)=>{
 
